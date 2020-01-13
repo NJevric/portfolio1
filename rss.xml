@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+	<channel>
+		<title>Projects</title>
+		<link>https://nikolajevric.000webhostapp.com/index.html</link>
+		<description>UI/UX design and Front-End</description>
+	
+	<item>
+		<title>New project </title>
+		<link>https://nikolajevric.000webhostapp.com/index.html</link>
+		<description>Responsive website</description>
+	</item>
+	</channel>
+</rss>

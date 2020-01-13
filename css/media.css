@@ -1,0 +1,238 @@
+@media screen and (max-width: 1366px)
+{
+	.wrapper{
+		width: 80%;
+	}
+	#home #naslovna{
+		top:170px;
+	}
+	#home #naslovna #naslov h1 {
+		margin-bottom: 35px;
+	}
+	#home #naslovna #naslov p {
+		width: 90%;
+		margin-left: 5%;
+	}
+	#work #mockup .sadrzaj{
+		width:100%;
+	}
+}
+@media screen and (max-width: 1024px)
+{
+	p{
+		font-size: 16px;
+	}
+	#home header nav{
+		height: 60px;
+	}
+	#home header nav  ul li{
+		padding-top: 15px;
+	}
+	#home #naslovna{
+		top:180px;
+	}
+	#home #naslovna #naslov h1{
+	font-size: 50px;
+	}
+	#about #blokOmeni #tekst{
+		width: 50%;
+	}
+	#about #blokOmeni #profilna img {
+		margin-top: 50px;
+		
+	}
+	#skills #ikone{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	#skills #ikone .tekstI p{
+		width: 150px;
+		margin-left: 30px;
+	}
+	#skills #ikone .content{
+		width: 50%;
+		display: flex;
+	}
+	.jedan,.dva{
+		margin-bottom: 30px;
+	}
+	
+	#work #mockup .sadrzaj .sadrzajText .dugme{
+		width: 120px;
+	}
+	#work #mockup .sadrzaj .sadrzajText .dugme p{
+		width: 120px;
+	}
+	#contact #kontaktBlok #levoKontakt .tekstKontakt{
+		margin-bottom: 35px;
+		font-size: 28px;
+		
+	}
+	#contact #kontaktBlok #kontaktInfo .tekstKontakt{
+		margin-bottom: 35px;
+		font-size: 28px;
+
+	}
+	#contact #kontaktBlok #kontaktInfo #infoK .info .icon{
+		font-size: 40px;
+	}
+	#contact #kontaktBlok #kontaktInfo #infoK .info .tekstInfo p{
+		font-size: 22px;
+	}
+	#contact #kontaktBlok #levoKontakt{
+		width: 55%;
+	}
+}
+@media screen and (max-width: 768px)
+{
+	.wrapper{
+		width: 90%;
+	}
+	.wrapper .naslov{
+		margin:30px 0px;
+	}
+	#about #blokOmeni{
+		display: block;
+	}
+	#about #blokOmeni #tekst{
+		width: 100%;
+		display: block;
+	}
+	#about #blokOmeni #profilna{
+		text-align: center;
+	}
+	#work #mockup .sadrzaj{
+	display: block;
+	}
+	.slika{
+		display: flex;
+		justify-content: center;
+		margin-bottom: 20px;
+	}
+	#work #mockup .sadrzaj .sadrzajText{
+		margin-left: 0px;
+		text-align: center;
+	}
+	.opis{
+		width: 80%;
+		margin:0px auto;
+	}
+}
+@media screen and (max-width: 650px)
+{	
+	.wrapper .naslov{
+		margin:40px auto;
+	}
+	#home header #logo .veliki{
+		display: none;
+	}
+	#home header #logo .mali {
+		display: block;
+	}
+	#home #naslovna #naslov h1{
+		font-size: 40px;
+	}
+	#skills #ikone .content{
+		width: 40%;
+		display: flex;
+		flex-direction: column;
+	}
+	#skills #ikone .tekstI p{
+		
+		margin-left: 0px;
+	}
+	#skills #ikone {
+		margin:0px auto;
+	}
+	.jedan,.dva{
+		margin-bottom: 0px;
+	}
+	#skills #ikone .ikona{
+		margin:0px auto;
+	}
+	#skills #ikone .tekstI {
+		display: flex;
+		justify-content: center;
+
+	}
+	#skills #ikone .tekstI p:nth-of-type(1){
+		margin-bottom: 30px;
+	}
+	#contact #kontaktBlok{
+		display: block;
+	}
+	#contact #kontaktBlok #levoKontakt{
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	#contact #kontaktBlok #kontaktInfo #infoK{
+		display: flex;
+		justify-content: space-around;
+	}
+	#contact #kontaktBlok #kontaktInfo #infoK .info{
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+	}
+	#contact #kontaktBlok #kontaktInfo #infoK .info .icon{
+		margin-right: 0px;
+	}
+	#contact #kontaktBlok #kontaktInfo #infoK .info .tekstInfo p{
+		font-size: 18px;
+		margin-top: 5px;
+	}
+}
+@media screen and (max-width: 480px)
+{	
+	#home header nav ul{
+
+		font-size: 18px;
+	}
+	#home header nav ul li a:hover{
+		font-size: 18px;
+	}
+	#home #naslovna #naslov{
+		margin: 20px auto;
+		margin-bottom: 40px;
+	}
+	#home #naslovna #naslov h1{
+		font-size: 33px;
+		width: 80%;
+		margin:0px auto;
+		margin-bottom: 20px;
+	}
+	#home #naslovna #naslov p{
+		text-align: center;
+		font-size: 18px;
+	}
+	
+	#skills #ikone{
+		margin-bottom: 20px;
+	}
+	#work #mockup .sadrzaj .slika img{
+		height: 95%;
+	}
+	#work #mockup .sadrzaj .slika img{
+		width: 100%;
+	}
+	#contact #kontaktBlok #kontaktInfo #infoK{
+		display: flex;
+		flex-direction: column;
+	}
+	#contact #kontaktBlok #kontaktInfo #infoK{
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+	}
+	#contact #kontaktBlok #levoKontakt .tekstKontakt{
+		font-size: 27px;
+	}
+	#contact #kontaktBlok #kontaktInfo .tekstKontakt{
+		font-size: 27px;
+	}
+	
+	footer #fooIcon i{
+		margin:0px 10px;
+	}
+}
+

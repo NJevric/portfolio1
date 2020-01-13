@@ -1,0 +1,224 @@
+@media screen and (max-width: 1366px)
+{
+	.wrapper{
+		width: 80%;
+	}
+	#home #naslovna{
+		top:170px;
+	}
+	#home #naslovna #naslov h1 {
+		margin-bottom: 35px;
+	}
+	#home #naslovna #naslov p {
+		width: 90%;
+		margin-left: 5%;
+	}
+	#work #mockup .sadrzaj{
+		width:100%;
+	}
+}
+
+@media screen and (max-width: 1024px)
+{
+	
+	nav{
+		height: 60px;
+	}
+	nav ul li{
+		padding-top: 15px;
+	}
+	#naslovna{
+		top:180px;
+	}
+	h1{
+	font-size: 50px;
+	}
+	#tekst{
+		width: 50%;
+	}
+	#profilna {
+		margin-top: 50px;
+		
+	}
+	#ikone{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.tekstI p{
+		width: 150px;
+	}
+	.content{
+		width: 50%;
+		display: flex;
+	}
+	.jedan,.dva{
+		margin-bottom: 30px;
+	}
+	.sadrzaj{
+		width:100%;
+	}
+	.dugme{
+		width: 120px;
+	}
+	.dugme p{
+		width: 120px;
+	}
+	.tekstKontakt{
+		margin-bottom: 35px;
+		font-size: 30px;
+	}
+	.icon{
+		font-size: 40px;
+	}
+	.tekstInfo p{
+		font-size: 22px;
+	}
+	#levoKontakt{
+		width: 55%;
+	}
+}
+
+@media screen and (max-width: 768px)
+{
+	.wrapper{
+		width: 90%;
+	}
+	.naslov{
+		margin-bottom: 40px;
+		margin-top: 30px;
+	}
+	#blokOmeni{
+		display: block;
+	}
+	#blokOmeni #tekst{
+		width: 100%;
+		display: block;
+	}
+	#profilna{
+		text-align: center;
+	}
+	.sadrzaj{
+	display: block;
+	}
+	.slika{
+		display: flex;
+		justify-content: center;
+		margin-bottom: 20px;
+	}
+	.sadrzajText{
+		margin-left: 0px;
+		text-align: center;
+	}
+	.opis{
+		width: 80%;
+		margin:0px auto;
+	}
+}
+@media screen and (max-width: 600px)
+{	
+	#logo .veliki{
+		display: none;
+	}
+	#logo .mali{
+		display: block;
+	}
+	#naslovna h1{
+		font-size: 40px;
+	}
+	.content{
+		width: 40%;
+		display: flex;
+		flex-direction: column;
+	}
+	.ikona{
+		margin:0px auto;
+	}
+	.jedan, .dva {
+    	margin-bottom: 0px;
+	}
+	.tekstI {
+		display: flex;
+		justify-content: center;	
+	}
+	.tekstI p:nth-of-type(1){
+		margin-bottom: 30px;
+	}
+	#kontaktBlok{
+		display: block;
+	}
+	#levoKontakt{
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	#infoK{
+		display: flex;
+		justify-content: space-around;
+	}
+	.info{
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+	}
+	.icon{
+		margin-right: 0px;
+	}
+	.tekstInfo p{
+		font-size: 18px;
+		margin-top: 5px;
+	}
+	
+}
+@media screen and (max-width: 480px)
+{	
+	nav ul{
+		font-size: 18px;
+	}
+	nav ul li a:hover{
+		font-size: 18px;
+	}
+	.naslov{
+		margin: 20px auto;
+		margin-bottom: 40px;
+	}
+	#naslovna h1{
+		font-size: 33px;
+		width: 80%;
+		margin:0px auto;
+		margin-bottom: 20px;
+	}
+	#naslovna p{
+		text-align: center;
+		font-size: 18px;
+	}
+	#tekst{
+		text-align: center;
+	}
+	#ikone{
+		margin-bottom: 20px;
+	}
+	.sadrzaj .slika img{
+		width: 95%;
+		height: 95%;
+	}
+	#infoK{
+		display: flex;
+		flex-direction: column;
+	}
+	.info{
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+	}
+	.tekstKontakt{
+		font-size: 27px;
+	}
+
+	#fooIcon{
+		font-size: 20px;
+	}
+	#fooIcon i{
+		margin:0px 15px;
+	}
+}
+
+

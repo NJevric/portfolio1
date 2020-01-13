@@ -1,0 +1,339 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Raleway', sans-serif;
+  scroll-behavior: smooth;
+}
+h2,h3{
+  letter-spacing: 1px;
+}
+p,a{
+  font-family: 'Montserrat', sans-serif;
+}
+p{
+  font-size: 18px;
+}
+hr {
+  width: 70%;
+  margin: 0px auto;
+  margin-bottom: 50px;
+  border: none;
+  height: 50px;
+  box-shadow: 0 15px 15px -20px #333;
+}
+
+.wrapper {
+  width: 68%;
+  margin: 0px auto;
+}
+.wrapper .naslov {
+  color: #fff;
+  background-color: red;
+  width: 200px;
+  text-align: center;
+  padding: 10px 0px;
+  margin-bottom: 60px;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+
+#home {
+  width: 100%;
+  height: 600px;
+  background: linear-gradient(-45deg, #fff, #00B6B6, #6aa8cc, #007ca5);
+  background-size: 400% 400%;
+  animation: Gradient 13s ease infinite;
+}
+#home header nav {
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  top: 0px;
+  z-index: 3;
+  background-color: rgba(51,51,51,0.65);
+}
+#home header nav ul {
+  width: 100%;
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+}
+#home header nav ul li {
+  list-style-type: none;
+  text-align: center;
+  width: 200px;
+  padding-top: 20px;
+}
+#home header nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+#home header nav ul li a:hover {
+  font-size: 24px;
+}
+#home header #logo .mali {
+  display: none;
+}
+#home #naslovna {
+  position: absolute;
+  width: 100%;
+  top: 220px;
+  color: #fff;
+}
+#home #naslovna #naslov h1 {
+  font-size: 60px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+#home #naslovna #naslov p {
+  font-size: 20px;
+  text-align: justify;
+  line-height: 120%;
+  width: 80%;
+  margin-left: 10%;
+}
+
+@keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+#about {
+  margin-bottom: 30px;
+}
+#about #blokOmeni {
+  display: flex;
+  justify-content: space-between;
+}
+#about #blokOmeni #tekst {
+  width: 61%;
+}
+#about #blokOmeni #tekst p {
+  color: #333333;
+  
+}
+#about #blokOmeni #profilna img {
+  margin-top:-50px;
+}
+
+#skills {
+  margin-bottom: 30px;
+}
+#skills #ikone {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+#skills #ikone .ikona {
+  border-radius: 50px;
+  width: 100px;
+  height: 100px;
+  background: #00b6b6;
+  text-align: center;
+  position: relative;
+  margin-left: 50px;
+}
+#skills #ikone .ikona i {
+  color: #fff;
+  font-size: 50px;
+  position: absolute;
+  top: 25%;
+  left: 0px;
+  right: 0px;
+}
+#skills #ikone .tekstI p {
+
+  margin-top: 20px;
+  width: 200px;
+  text-align: center;
+}
+#skills #skillBar .blok {
+  width: 100%;
+  background-color: #ddd;
+  border-radius: 5px;
+}
+#skills #skillBar .blok .skills {
+  border-radius: 5px 0px 0px 5px;
+  text-align: left;
+  padding: 8px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+#skills #skillBar .blok .skills span {
+  float: right;
+}
+#skills #skillBar .blok .html {
+  width: 90%;
+  background-color: #00b6b6;
+}
+#skills #skillBar .blok .css {
+  width: 70%;
+  background-color: #00b6b6;
+}
+#skills #skillBar .blok .photoshop {
+  width: 45%;
+  background-color: #00b6b6;
+}
+#skills #skillBar .blok .seo {
+  width: 65%;
+  background-color: #00b6b6;
+}
+#skills #skillBar .blok .boot {
+  width: 50%;
+  background-color: #00b6b6;
+}
+
+#work #mockup {
+  margin-bottom: 50px;
+}
+
+#work #mockup .sadrzaj {
+  width: 80%;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-around;
+}
+#work #mockup .sadrzaj .sadrzajText {
+  margin-left: 20%;
+  text-align: center;
+}
+#work #mockup .sadrzaj .sadrzajText .opis h3 {
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+#work #mockup .sadrzaj .sadrzajText .opis p {
+  width: 100%;
+}
+#work #mockup .sadrzaj .sadrzajText .dugme {
+  width: 150px;
+  margin: 20px auto;
+}
+#work #mockup .sadrzaj .sadrzajText .dugme p {
+  background-color: #00b6b6;
+  border-radius: 3px;
+  width: 150px;
+  margin-bottom: 10px;
+  color: #fff;
+  padding: 5px 0px;
+}
+
+#contact iframe {
+  height: 300px;
+  width: 100%;
+  border:0px;
+}
+#contact #kontaktBlok {
+  display: flex;
+  justify-content: space-between;
+}
+#contact #kontaktBlok #levoKontakt {
+  width: 62%;
+  margin-bottom: 50px;
+}
+#contact #kontaktBlok #levoKontakt .tekstKontakt {
+  color: #333333;
+  width: 100%;
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 40px;
+}
+#contact #kontaktBlok #levoKontakt form {
+  width: 100%;
+}
+#contact #kontaktBlok #levoKontakt form table {
+  width: 100%;
+}
+#contact #kontaktBlok #levoKontakt form table tr td input {
+  width: 100%;
+  height: 20px;
+  border-radius: 3px;
+  border: 1px solid #fff;
+  margin-bottom: 20px;
+  padding: 5px;
+  background-color: #ddd;
+  font-size: 16px;
+}
+#contact #kontaktBlok #levoKontakt form table tr td textarea {
+  width: 100%;
+  height: 90px;
+  border-radius: 3px;
+  resize: none;
+  padding: 5px;
+  font-size: 16px;
+  background-color: #ddd;
+  border: none;
+}
+#contact #kontaktBlok #levoKontakt form table tr td #send {
+  width: 120px;
+  height: 40px;
+  font-weight: bold;
+  color: #333333;
+  font-size: 18px;
+  float: left;
+  margin-top: 10px;
+}
+#contact #kontaktBlok #levoKontakt form table tr td #send:hover {
+  background: #00b6b6;
+  transition: 0.3s;
+  color: #fff;
+}
+#contact #kontaktBlok #kontaktInfo .tekstKontakt {
+  color: #333333;
+  width: 100%;
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 40px;
+}
+#contact #kontaktBlok #kontaktInfo #infoK .info {
+  color: #333333;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+}
+#contact #kontaktBlok #kontaktInfo #infoK .info .icon {
+  font-size: 45px;
+  color: #00b6b6;
+  margin-bottom: 10px;
+  margin-right: 15px;
+}
+#contact #kontaktBlok #kontaktInfo #infoK .info .icon a {
+  text-decoration: none;
+  color:#00b6b6;
+}
+
+#contact #kontaktBlok #kontaktInfo #infoK .info .tekstInfo p {
+  font-size: 24px;
+}
+
+footer {
+  background: #333333;
+  text-align: center;
+  color: #fff;
+  overflow: hidden;
+}
+
+footer #fooIcon {
+  margin: 20px 0px;
+  font-size: 25px;
+
+}
+footer #fooIcon i {
+  margin: 0px 20px;
+}
+footer #fooIcon a {
+  color: #fff;
+}
+footer #icons a{
+  color: #fff;
+}
+footer #footxt {
+  margin-bottom: 15px;
+  font-size: 18px;
+}
