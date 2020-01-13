@@ -1,2 +1,2 @@
 # portfolio
-webdizajn praktikum (bootstrap) april 2019
+webdizajn praktikum april 2019
