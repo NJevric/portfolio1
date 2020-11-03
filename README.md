@@ -4,5 +4,5 @@ Project for web design course @ ICT College
 * HTML
 * CSS, Sass
 * XML
-### Link to website
+## Link to website
 https://njevric.github.io/portfolio1/
