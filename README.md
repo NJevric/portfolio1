@@ -2,7 +2,7 @@
 Project for web design course @ ICT College
 ## Technologies used
 * HTML
-* CSS, Sass
+* CSS, SCSS
 * XML
 ## Link to website
 https://njevric.github.io/portfolio1/
